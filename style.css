@@ -1,28 +1,66 @@
 @font-face { 
     font-family: "GenSen"; 
-    src: url(gensen.ttc); 
-  }
-  * {
-    font-family: "GenSen";
-    text-align: center;
-  }
-  div#title {
-    position: relative; 
-    top: 0px; 
-    left: 0px; 
-    width: 100%; 
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    backdrop-filter: blur(4px);
-    background-image: url("https://media.discordapp.net/attachments/973799815840407552/981092878749147196/unknown.png?width=1251&height=674");
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: black;
-    cursor: pointer;
-  }
-  div#content {
-    font-size: 25px
-  }
+    src: url(assets/title.ttf); 
+}
+@font-face { 
+  font-family: "ThinGenSen"; 
+  src: url(assets/about.ttf); 
+  font-weight: 100;
+}
+* {
+  font-family: "ThinGensen",sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+div#title {
+  font-family: 'Gensen' !important;
+  position: relative; 
+  top: 0px; 
+  left: 0px; 
+  width: 100%; 
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-image: url("assets/1.webp");
+  backdrop-filter: blur(4px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: black;
+  cursor: pointer;
+}
+div#content {
+  font-size: 25px
+}
+code {
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#discord {
+  background-color: #ffd7d9;
+  display: inline-block;
+}
+#theme-toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+#theme-toggle-button {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 5px;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+}

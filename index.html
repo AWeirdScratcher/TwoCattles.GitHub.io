@@ -1,18 +1,49 @@
 <head>
   <title>牛舍伺服器</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="icon" type="image/png" href="assets/icon.png">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="language" content="zh-tw">
+  <meta name="title" content="牛舍伺服器">
+  <meta name="description" content="這是一座遠離塵囂的美麗國度，是一座充滿牛牛的療癒牛舍。
+  你可以在這裡當一隻魚、一棵樹、一隻牛、或者做你自己！！
+  進入牛舍只有一個規定：要快樂！">
+  <meta name="theme-color" content="#f9adb1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="google" content="notranslate">
+  <meta property="og:image" content="assets/icon.png">
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed" defer></script>
+  <script src="https://kit.fontawesome.com/2f97eea4d8.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div id="page">
   <div onclick="join()" id="title">
-    <img src="icon.png" width="55px">
+    <img src="assets/icon.png" alt="牛舍Logo" width="55px">
     牛舍伺服器
   </div>
   <br><br>
   <div id="content">
-    正在等大佬來幫我們寫介紹 🛐🛐🛐🛐🛐<br>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYC6K0pMIIdvsrVNw0X301VXzIj0zDrIXoRQIE51_TG07UMg/viewform?embedded=true" width="100%" height="40%" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+    這是一座遠離塵囂的美麗國度，是一座充滿牛牛的療癒牛舍。<br>
+    你可以在這裡當一隻魚、一棵樹、一隻牛、或者做你自己！！<br>
+    <br>
+    進入牛舍只有一個規定：要快樂！<br>
+    <br>
+    <code onclick="join()" title="點一下即可將伺服器加入Minecraft">node3-hk.aquaticnodes.host:19898</code><br><br>
+    <div style="width:100%;height:600px;" id="discord">
+        <div>
+          <widgetbot
+          server="923967993980010526"
+          channel="975392958004219994"
+          width="100%"
+          height="600"
+        ></widgetbot>
+      </div>
   </div>
+  </div>
+  </div>
+  <div id="theme-toggle"><button onclick="toggle()" id="theme-toggle-button" title="切換色彩主題"><i class="fa-solid fa-moon"></i></button></div>
 </body>
